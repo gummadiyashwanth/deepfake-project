@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.App {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    top: 30vh;
+    margin-top: 0;
+    padding-top: 0;
+    position: relative;
+    width: 45vw;
+}
+
+.heading {
+    margin-top: 0;
+    font-size: 4vw;
+}
+
+.heading,
+.para {
+    color: #fff;
+    margin-left: 5.5vw;
+}
+
+.para {
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+.detectHeading,
+.detectHeading {
+    margin: 0;
+    position: relative;
+    text-align: center;
+}
+
+.detectHeading {
+    top: 13vh;
+    color: #320448;
+    font-size: 4vh;
+    padding: 0;
+}
+
+.background1 {
+    background-image: linear-gradient(#de802d, #e63939);
+    background-size: cover;
+    height: 100%;
+}
+
+.background1,
+.button {
+    position: relative;
+    text-align: center;
+}
+
+.button {
+    background-color: #7f96e7;
+    height: 3vh;
+    transition-duration: .4s;
+    width: 9vw;
+    border-radius: 1.5vh;
+    margin: auto;
+    font-weight: 700;
+    font-size: 1.0vw;
+    display: inline-block;
+    vertical-align: middle;
+    border: 3px solid #4ecca3;
+}
+.button:hover {
+    background-color: #65dea9;
+}
+
+.nav {
+    z-index: 10;
+    position: absolute;
+}
+
+ul {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+li,
+ul {
+    border: none;
+}
+
+li {
+    text-decoration: none;
+    display: inline;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+ul {
+    border: none
+}
+
+li {
+    text-decoration: none;
+    display: inline;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 20px
+}
+
